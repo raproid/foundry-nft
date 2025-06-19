@@ -1,17 +1,10 @@
-## Foundry
+## NFTs
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This repository contains a collection of smart contracts for creating and managing Non-Fungible Tokens (NFTs) on the Ethereum blockchain. The contracts are written in Solidity and can be compiled and tested using Foundry.
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
+NFTs:
+* An ERC721 NFT with IPFS-stored metadata.
+* An ERC721 NFT with on-chain metadata.
 
 ## Usage
 
