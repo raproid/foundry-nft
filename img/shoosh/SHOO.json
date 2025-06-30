@@ -1,0 +1,11 @@
+{
+    "name": "SHOO",
+    "description": "A young shoo, developing more power",
+    "image": "https://bafybeiebxdylqrcvyoenawty2dzzvfjz5c66b6kze63kieera5skdbjdiy.ipfs.dweb.link/?filename=shoosh_cl_10kb.jpeg",
+    "attributes": [
+        {
+            "trait_type": "shooshness",
+            "value": 101
+        }
+    ]
+}

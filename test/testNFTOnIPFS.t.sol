@@ -186,11 +186,18 @@ contract NFTOnIPFSTest is Test, IERC721Receiver {
         }
     }
 
+    // ====== TOKEN NAME TESTS ======
+    function testTokenNameIsCorrect() public view {
+        string memory expectedName = "Shoosh";
+        string memory actualName = nft.name();
+        assert(keccak256(abi.encodePacked(expectedName)) == keccak256(abi.encodePacked(actualName)));
+    }
+
     // ====== TOKEN URI TESTS ======
     function testTokenURIReturnsCorrectURI() public {
         nft.mintNFT(SAMPLE_URI_1);
 
-        assertEq(nft.tokenURI(0), SAMPLE_URI_1);
+        assert(keccak256(abi.encodePacked(nft.tokenURI(0))) == keccak256(abi.encodePacked(SAMPLE_URI_1)));
     }
 
     function testTokenURIRevertsForNonexistentToken() public {

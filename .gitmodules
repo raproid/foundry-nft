@@ -6,3 +6,7 @@
 	path = lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
 	ignore = all
+[submodule "lib/foundry-devops"]
+	path = lib/foundry-devops
+	url = https://github.com/ChainAccelOrg/foundry-devops
+    ignore = all
