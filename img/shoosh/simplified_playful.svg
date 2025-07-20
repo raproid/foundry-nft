@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#1a0d1a"/>
+<text x="100" y="30" text-anchor="middle" fill="#ff3366" font-size="20" font-weight="bold">SHOOSH</text>
+<ellipse cx="100" cy="80" rx="25" ry="35" fill="#d4934a"/>
+<path d="M75 70 Q100 55 125 70 Q115 90 100 95 Q85 90 75 70Z" fill="#b8703a"/>
+<ellipse cx="92" cy="75" rx="2" ry="2" fill="#2a1810"/>
+<ellipse cx="108" cy="75" rx="2" ry="2" fill="#2a1810"/>
+<path d="M95 85 Q100 88 105 85" stroke="#8b4513" stroke-width="1" fill="none"/>
+<rect x="95" y="95" width="3" height="12" fill="#d4934a"/>
+<ellipse cx="97" cy="105" rx="1" ry="2" fill="#ff6b6b"/>
+<rect x="180" y="60" width="8" height="15" fill="#00cc44"/>
+<text x="184" y="72" text-anchor="middle" fill="#fff" font-size="6">$</text>
+</svg>
